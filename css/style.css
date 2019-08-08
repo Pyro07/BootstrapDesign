@@ -1,0 +1,353 @@
+body {
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #1886c7;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+}
+
+.navbar {
+    border-bottom: 2px solid #1886c7;
+    background-color: black;
+}
+
+.navbar .navbar-brand {
+    color: #1886c7;
+    font-size: 24px;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    transition: color .2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #1886c7 !important;
+}
+
+#headerSection {
+    background: url('/BootstrapDesign/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    /*vh ekran boyutunu alması için ölçü*/
+}
+
+#headerSection .overlay {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#headerSection span {
+    color: #1888c7
+}
+
+.btn-outline-primary {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#featuresSection .fa,
+.fab {
+    font-size: 40px;
+    color: #1886c7;
+}
+
+#featuresSection h3 {
+    color: #1886c7;
+}
+
+#ourHistory h2 {
+    border-left: 6px solid #1886c7;
+    padding-left: 30px;
+    margin-top: 22px;
+}
+
+#ourHistory .col-md-6 {
+    display: inline;
+}
+
+#ourHistory .btn-outline-primary {
+    position: absolute;
+    bottom: 15px;
+}
+
+#ourHistory p {
+    line-height: 28px;
+}
+
+div .p-4 {
+    position: relative;
+    margin: auto;
+    transition: all .2s ease-in-out;
+}
+
+div .p-4:hover {
+    top: -5px;
+}
+
+.row .col-md-3 {
+    position: relative;
+    margin: auto;
+    transition: all .2s ease-in-out;
+}
+
+.row .col-md-3:hover {
+    top: -10px;
+}
+
+#team .card {
+    border: none;
+}
+
+#whatWeDo {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/BootstrapDesign/images/codeImage.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#caseStudy {
+    background-color: #f4f5f9;
+    line-height: 28px;
+}
+
+#caseStudy h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #1886c7;
+}
+
+#caseStudy .fa {
+    font-size: 40px;
+    color: #1886c7;
+}
+
+.caseAreaLeft {
+    background-color: white;
+    margin-top: 40px;
+    margin-right: -40px;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+    min-height: 420px;
+}
+
+.caseAreaRight {
+    margin-left: -40px;
+}
+
+#portfolio .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#portfolio .fa {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1886c7;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .7;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#testMonials {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/BootstrapDesign/images/image3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.quote {
+    color: rgba(24, 134, 199, .6);
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    width: 140px;
+    height: 140px;
+    opacity: .1;
+    margin-bottom: 35px;
+}
+
+.blockquote-footer {
+    color: #1886c7;
+}
+
+#contact {
+    background-color: #f4f5f9;
+}
+
+#contact .input-group-addon {
+    width: 50px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #1886c7;
+}
+
+#contact span {
+    position: relative;
+}
+
+.txtName:focus {
+    outline: none !important;
+}
+
+#contact .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-footer {
+    color: white;
+    background-color: black;
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+
+    .HistoryLeft img {
+        width: 400px;
+    }
+
+    .HistoryRight p {
+        font-size: 12px;
+        line-height: 18px !important;
+    }
+
+
+    .HistoryRight h2 {
+        /*
+        border-left: 6px solid #1886c7;
+        padding-left: 30px;
+        margin-top: 22px;
+*/
+        font-size: 24px;
+        padding-left: 50px;
+        margin-top: 32px;
+    }
+
+    .caseAreaRight {
+        min-height: 380px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .display-3 {
+        font-size: 48px !important;
+    }
+
+    #ourHistory .btn {
+        position: relative;
+    }
+
+    .HistoryLeft,
+    .HistoryRight {
+        text-align: center;
+    }
+
+    #team .fab {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .display-3 {
+        font-size: 32px !important;
+    }
+
+    .caseAreaLeft {
+        margin-right: 0;
+    }
+
+    .caseAreaRight {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #team img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .display-3 {
+        font-size: 16px !important;
+    }
+}
